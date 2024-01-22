@@ -1,0 +1,56 @@
+
+h1{
+    text-shadow: 1.5px 1.5px black;
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(18, 201, 201), rgb(188, 25, 167));
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+img{
+    border: 5px rgb(196, 129, 247) solid;
+    background: rgb(0, 0, 0);
+    border-radius: 27px;
+    width: 550px;
+    height: 550px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-shadow: none;
+  }
+
+.button:hover {
+    background-color: lavender;
+}
+
+.Section2 {
+    background-color: lavender;
+    color: black;
+    text-shadow:none;
+    font-size: 12px; 
+    padding-top: .5px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+
+}
+
+.Section3 {
+    background-color: lavender;
+    color: black;
+    text-shadow: none;
+    font-size: 12px; 
+    padding-bottom: 1px;
+    padding-top: .5px;
+    border-radius: 20px;
+
+}
+
