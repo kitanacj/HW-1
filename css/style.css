@@ -6,7 +6,10 @@ body {
     background-image: linear-gradient(to bottom right, rgb(18, 201, 201), rgb(188, 25, 167));
     text-shadow: 1px 1px black;
     color: white;
+    
+
 }
+
 
 img{
     border: 5px rgb(196, 129, 247) solid;
@@ -14,6 +17,13 @@ img{
     border-radius: 27px;
     width: 550px;
     height: 550px;
+}
+
+.columns {
+ column-count: 2;
+ column-gap: normal;
+ column-width: 650px;
+
 }
 
 .button {
@@ -26,7 +36,7 @@ img{
     display: inline-block;
     font-size: 16px;
     text-shadow: none;
-  }
+}
 
 .button:hover {
     background-color: lavender;
@@ -37,20 +47,30 @@ img{
     color: black;
     text-shadow:none;
     font-size: 12px; 
-    padding-top: .5px;
-    padding-bottom: 1px;
+    padding: 1px 1px 1px;
     border-radius: 20px;
+    width: 650px;
+    column-count: 2;
 
+}
+
+.Artwork{
+    height: 200px;
+    width: 300px;
+    padding: 1px 1px 1px;
+    border: none;
+    background: none;
 }
 
 .Section3 {
     background-color: lavender;
     color: black;
     text-shadow: none;
-    font-size: 12px; 
-    padding-bottom: 1px;
-    padding-top: .5px;
+    font-size: 12px;  
+    padding: 1px 1px;
     border-radius: 20px;
-
+    width: 650px;
 }
+
+
 
